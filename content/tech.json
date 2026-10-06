@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "name": "JavaScript",
+      "icon": "javascript",
+      "category": "Frontend",
+      "order": 1
+    },
+    {
+      "name": "TypeScript",
+      "icon": "typescript",
+      "category": "Frontend",
+      "order": 2
+    },
+    {
+      "name": "React",
+      "icon": "react",
+      "category": "Frontend",
+      "order": 3
+    },
+    {
+      "name": "Next.js",
+      "icon": "nextdotjs",
+      "category": "Frontend",
+      "order": 4
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "tailwindcss",
+      "category": "Frontend",
+      "order": 5
+    },
+    {
+      "name": "Node.js",
+      "icon": "nodedotjs",
+      "category": "Backend",
+      "order": 7
+    },
+    {
+      "name": "MongoDB",
+      "icon": "mongodb",
+      "category": "Backend",
+      "order": 9
+    },
+    {
+      "name": "Git",
+      "icon": "git",
+      "category": "Tools",
+      "order": 11
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "category": "Tools",
+      "order": 12
+    },
+    {
+      "name": "Vercel",
+      "icon": "vercel",
+      "category": "Tools",
+      "order": 13
+    },
+    {
+      "name": "Figma",
+      "icon": "figma",
+      "category": "Design",
+      "order": 14
+    },
+    {
+      "name": "RestAPI",
+      "category": "Backend"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+backend:
+  name: github
+  repo: Rohitt0/Portfolio
+  branch: main
+  # base_url: https://YOUR-OAUTH-PROXY   # needed for login on the live site (see README)
+local_backend: true
+media_folder: public/uploads
+public_folder: /uploads
+collections:
+  - name: profile
+    label: Profile
+    files:
+      - name: profile
+        label: Profile
+        file: content/profile.json
+        fields:
+          - { name: name, label: Name, widget: string }
+          - { name: role, label: Role, widget: string, required: false }
+          - { name: location, label: Location, widget: string, required: false }
+          - { name: avatar, label: Avatar, widget: image, required: false }
+          - { name: banner, label: Banner, widget: image, required: false }
+          - { name: about, label: About (one bullet per line), widget: text, required: false }
+          - name: socials
+            label: Social links
+            widget: list
+            required: false
+            fields:
+              - { name: label, label: Label, widget: string }
+              - { name: url, label: URL, widget: string }
+          - { name: ctaText, label: Closing heading, widget: string, required: false }
+          - { name: quote, label: Quote, widget: string, required: false }
+          - { name: quoteAuthor, label: Quote author, widget: string, required: false }
+  - name: projects
+    label: Projects
+    folder: content/projects
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: tagline, label: Tagline, widget: string, required: false }
+      - { name: description, label: Description, widget: text, required: false }
+      - { name: cover, label: Cover image, widget: image, required: false }
+      - { name: status, label: Status, widget: select, options: [Live, In progress, Archived], default: Live }
+      - { name: badge, label: "Ribbon (e.g. 600+ users)", widget: string, required: false }
+      - { name: tech, label: Tech, widget: list, required: false }
+      - { name: liveUrl, label: Live URL, widget: string, required: false }
+      - { name: repoUrl, label: Repo URL, widget: string, required: false }
+      - { name: order, label: Order (low = first), widget: number, value_type: int, required: false }
+  - name: blog
+    label: Blog
+    folder: content/blog
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: excerpt, label: Excerpt, widget: text, required: false }
+      - { name: body, label: Body, widget: markdown, required: false }
+      - { name: cover, label: Cover image, widget: image, required: false }
+      - { name: date, label: Date, widget: datetime, required: false }
+      - { name: order, label: Order (low = first), widget: number, value_type: int, required: false }    
+  - name: tech
+    label: Tech Stack
+    files:
+      - name: tech
+        label: Tech Stack
+        file: content/tech.json
+        fields:
+          - name: items
+            label: Items
+            widget: list
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: category, label: Category, widget: select, options: [Frontend, Backend, Design, Tools] }
+              - { name: url, label: URL, widget: string, required: false }
+              - { name: icon, label: "Icon (Simple Icons slug, e.g. react)", widget: string, required: false }
+              - { name: order, label: Order, widget: number, value_type: int, required: false }
+  - name: highlights
+    label: Highlights
+    files:
+      - name: highlights
+        label: Highlights
+        file: content/highlights.json
+        fields:
+          - name: items
+            label: Items
+            widget: list
+            fields:
+              - { name: author, label: Author, widget: string }
+              - { name: handle, label: Handle, widget: string, required: false }
+              - { name: quote, label: Quote, widget: text }
+              - { name: url, label: Link, widget: string, required: false }
