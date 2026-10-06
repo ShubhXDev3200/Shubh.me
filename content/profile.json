@@ -1,0 +1,33 @@
+{
+  "socials": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rohitt00"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Rohitt0"
+    },
+    {
+      "label": "X",
+      "url": "https://x.com/starbeforemoon"
+    },
+    {
+      "label": "Mail",
+      "url": "mailto:rohittsingh2005@gmail.com"
+    },
+    {
+      "label": "Resume",
+      "url": "https://drive.google.com/file/d/19KR16Az-G36LaCKq5z72vR1lkTlCJJUX/view?usp=drive_link"
+    }
+  ],
+  "quoteAuthor": "Idk who said that",
+  "name": "Rohit Singh",
+  "banner": "/uploads/chatgpt-image-sep-29-2026-10_37_17-am.png",
+  "about": "- Part student, part tinkerer. I build things that click, scroll and update in real time, and I try to make sure they don't break when you look at them.\n- I focus on writing clean, scalable code and building interfaces that are simple, responsive, and easy to use.",
+  "location": "Delhi, IND",
+  "role": "Software Engineer",
+  "avatar": "/uploads/image_2026-09-29_110338499.png",
+  "quote": "Ship first, understand later.",
+  "ctaText": ""
+}
