@@ -1,74 +1,112 @@
 {
   "items": [
     {
-      "name": "JavaScript",
-      "icon": "javascript",
-      "category": "Frontend",
+      "name": "C++",
+      "icon": "cplusplus",
+      "category": "Languages",
       "order": 1
     },
     {
-      "name": "TypeScript",
-      "icon": "typescript",
-      "category": "Frontend",
+      "name": "Python",
+      "icon": "python",
+      "category": "Languages",
       "order": 2
     },
     {
-      "name": "React",
-      "icon": "react",
-      "category": "Frontend",
+      "name": "C",
+      "icon": "c",
+      "category": "Languages",
       "order": 3
     },
     {
-      "name": "Next.js",
-      "icon": "nextdotjs",
-      "category": "Frontend",
+      "name": "SQL",
+      "icon": "postgresql",
+      "category": "Languages",
       "order": 4
+    },
+    {
+      "name": "FastAPI",
+      "icon": "fastapi",
+      "category": "Frameworks & Libraries",
+      "order": 5
+    },
+    {
+      "name": "LangChain",
+      "icon": "langchain",
+      "category": "Frameworks & Libraries",
+      "order": 6
+    },
+    {
+      "name": "OpenCV",
+      "icon": "opencv",
+      "category": "Frameworks & Libraries",
+      "order": 7
     },
     {
       "name": "Tailwind CSS",
       "icon": "tailwindcss",
-      "category": "Frontend",
-      "order": 5
+      "category": "Frameworks & Libraries",
+      "order": 8
     },
     {
-      "name": "Node.js",
-      "icon": "nodedotjs",
-      "category": "Backend",
-      "order": 7
+      "name": "PostgreSQL",
+      "icon": "postgresql",
+      "category": "Databases",
+      "order": 9
     },
     {
       "name": "MongoDB",
       "icon": "mongodb",
-      "category": "Backend",
-      "order": 9
+      "category": "Databases",
+      "order": 10
+    },
+    {
+      "name": "MySQL",
+      "icon": "mysql",
+      "category": "Databases",
+      "order": 11
+    },
+    {
+      "name": "Redis",
+      "icon": "redis",
+      "category": "Databases",
+      "order": 12
+    },
+    {
+      "name": "SQLite",
+      "icon": "sqlite",
+      "category": "Databases",
+      "order": 13
     },
     {
       "name": "Git",
       "icon": "git",
       "category": "Tools",
-      "order": 11
+      "order": 14
     },
     {
       "name": "GitHub",
       "icon": "github",
       "category": "Tools",
-      "order": 12
+      "order": 15
     },
     {
-      "name": "Vercel",
-      "icon": "vercel",
+      "name": "Linux",
+      "icon": "linux",
       "category": "Tools",
-      "order": 13
+      "order": 16
     },
     {
-      "name": "Figma",
-      "icon": "figma",
-      "category": "Design",
-      "order": 14
+      "name": "VS Code",
+      "icon": "visualstudiocode",
+      "category": "Tools",
+      "order": 17
     },
     {
-      "name": "RestAPI",
-      "category": "Backend"
+      "name": "OpenGL",
+      "icon": "opengl",
+      "category": "Frameworks & Libraries",
+      "order": 18
     }
   ]
 }

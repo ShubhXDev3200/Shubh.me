@@ -1,0 +1,17 @@
+{
+  "status": "Live",
+  "title": "Face Recognition System",
+  "tagline": "Real-Time CNN-Based Identity Verification",
+  "description": "A real-time face enrollment and recognition system built with Python and OpenCV. Extracts facial features via CNN-based embeddings, stores them in a SQLite database, and matches them for identity verification. Achieved ~95% recognition accuracy on the test set.",
+  "cover": "/uploads/cosmos_275017634.jpg",
+  "liveUrl": "",
+  "repoUrl": "https://github.com/ShubhXDev3200",
+  "tech": [
+    "Python",
+    "OpenCV",
+    "CNN",
+    "NumPy",
+    "SQLite"
+  ],
+  "order": 3
+}

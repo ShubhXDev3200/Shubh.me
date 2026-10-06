@@ -1,20 +1,12 @@
 {
   "socials": [
     {
-      "label": "LinkedIn",
-      "url": "https://www.linkedin.com/in/rohitt00"
-    },
-    {
       "label": "GitHub",
-      "url": "https://github.com/Rohitt0"
-    },
-    {
-      "label": "X",
-      "url": "https://x.com/starbeforemoon"
+      "url": "https://github.com/ShubhXDev3200"
     },
     {
       "label": "Mail",
-      "url": "mailto:rohittsingh2005@gmail.com"
+      "url": "mailto:chaudharyshubham1020@gmail.com"
     },
     {
       "label": "Resume",
@@ -22,10 +14,10 @@
     }
   ],
   "quoteAuthor": "Idk who said that",
-  "name": "Rohit Singh",
+  "name": "Shubham Chaudhary",
   "banner": "/uploads/chatgpt-image-sep-29-2026-10_37_17-am.png",
-  "about": "- Part student, part tinkerer. I build things that click, scroll and update in real time, and I try to make sure they don't break when you look at them.\n- I focus on writing clean, scalable code and building interfaces that are simple, responsive, and easy to use.",
-  "location": "Delhi, IND",
+  "about": "- CS undergrad who builds things that work — multi-agent AI systems, voice assistants, voxel engines, and whatever comes next.\n- I focus on writing clean, scalable code and building systems that are fast, reliable, and easy to reason about.",
+  "location": "India",
   "role": "Software Engineer",
   "avatar": "/uploads/image_2026-09-29_110338499.png",
   "quote": "Ship first, understand later.",

@@ -1,0 +1,17 @@
+{
+  "status": "Live",
+  "title": "Self-Healing RAG Pipeline",
+  "tagline": "Automated Retrieval-Augmented Generation with Self-Correction",
+  "description": "A RAG pipeline in Python that generates embeddings and performs vector search to retrieve context for LLM responses. Includes an automated validation layer that detects poor or irrelevant retrievals and triggers self-correction cycles, improving answer accuracy without manual intervention.",
+  "cover": "/uploads/cosmos_786549015.jpg",
+  "liveUrl": "",
+  "repoUrl": "https://github.com/ShubhXDev3200",
+  "tech": [
+    "Python",
+    "LangChain",
+    "LangGraph",
+    "LLMs",
+    "Vector Database"
+  ],
+  "order": 4
+}

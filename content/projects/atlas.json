@@ -1,0 +1,20 @@
+{
+  "status": "Live",
+  "title": "ATLAS",
+  "tagline": "Multi-Agent AI Orchestration System",
+  "description": "A multi-agent AI orchestration platform built with Python and FastAPI, routing user requests across Chat, RAG, Gmail, and Coding agents through a centralized orchestrator. Features a two-stage code generation and review pipeline, a RAG-based document retrieval system using ChromaDB, JWT authentication, and support for both cloud and local LLM inference via Ollama.",
+  "cover": "/uploads/image_2026-09-28_172302708.png",
+  "liveUrl": "",
+  "repoUrl": "https://github.com/ShubhXDev3200",
+  "tech": [
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "Redis",
+    "ChromaDB",
+    "JWT",
+    "RAG",
+    "LLMs"
+  ],
+  "order": 1
+}

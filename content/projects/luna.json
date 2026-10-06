@@ -1,0 +1,17 @@
+{
+  "status": "Live",
+  "title": "Luna",
+  "tagline": "Hands-Free Windows Voice Assistant",
+  "description": "A privacy-first Windows voice assistant that runs fully locally — offline wake-word detection with Vosk, speech-to-text via faster-whisper, and interruptible TTS via SAPI5. Handles common commands in ~20ms without any LLM call, falls back to a strict-JSON LLM interpreter for unknown requests, and controls apps, keyboard, and a reused Playwright browser session via an allowlist-only action set.",
+  "cover": "/uploads/image_2026-09-28_172448310.png",
+  "liveUrl": "",
+  "repoUrl": "https://github.com/ShubhXDev3200",
+  "tech": [
+    "Python",
+    "faster-whisper",
+    "Vosk",
+    "Playwright",
+    "SAPI5"
+  ],
+  "order": 2
+}
