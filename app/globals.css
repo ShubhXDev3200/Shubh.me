@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg:#f7f3ec;
+  --fg:#1f1b16;
+  --mute:#7a7267;
+  --line:#e3dccd;
+  --hover:rgb(0 0 0/.05);
+  --hover2:rgb(0 0 0/.08);
+  color-scheme:light
+}
+
+.dark{
+  --bg:#0d0d0e;
+  --fg:#ececec;
+  --mute:#8b8b90;
+  --line:#2a2a2e;
+  --hover:rgb(255 255 255/.05);
+  --hover2:rgb(255 255 255/.1);
+  color-scheme:dark
+}
+
+body{
+  background:var(--bg);
+  color:var(--fg);
+  font-family:var(--font-sans),system-ui;
+  -webkit-font-smoothing:antialiased
+}
+
+/* read-mode column: narrow centre with dashed rails */
+
+.col{
+  position:relative;
+  max-width:920px;
+  min-height:100vh;
+  margin:0 auto;
+  border-inline:1px dashed var(--line)
+}
+
+.rule{
+  position:relative
+}
+
+.rule::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:50%;
+  width:100vw;
+  transform:translateX(-50%);
+  border-top:1px dashed var(--line);
+  pointer-events:none
+}
+
+.rule2{
+  position:relative
+}
+
+.rule2::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:50%;
+  width:100vw;
+  transform:translateX(-50%);
+  border-top:1px dashed var(--line);
+  pointer-events:none
+}
+
+body{
+  overflow-x:clip
+}
+
+.pad{
+  padding:0.70rem 1.5rem
+}
+
+h2{
+  font-family:var(--font-serif);
+  font-size:1.6rem;
+  letter-spacing:-.01em
+}
+
+.press{
+  transition:transform .16s cubic-bezier(.23,1,.32,1),background-color .16s
+}
+
+.press:active{
+  transform:scale(.97)
+}
+
+:focus-visible{
+  outline:2px solid var(--fg);
+  outline-offset:2px
+}
+
+.divider{
+  position:relative;
+  height:16px
+}
+
+.divider::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:50%;
+  width:100vw;
+  transform:translateX(-50%);
+  border-top:1px dashed var(--line);
+  pointer-events:none
+}
+
+.divider::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:50%;
+  width:100vw;
+  transform:translateX(-50%);
+  border-top:1px dashed var(--line);
+  pointer-events:none
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
